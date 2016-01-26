@@ -1,6 +1,10 @@
 import sys, random
 ## The instructions
-print("The name of the game is 'Petals Around the Rose'\nRULES:\n1. The name of the game is significant.\n2. Every answer is zero or an even number.\n3. There is one correct answer for every throw of the dice.")
+print("""The name of the game is 'Petals Around the Rose'\n
+RULES:\n
+1. The name of the game is significant.\n
+2. Every answer is zero or an even number.\n
+3. There is one correct answer for every throw of the dice.\n""")
 ##play is initiated empty, and the game auto-starts
 play = ""
 while play.lower() != "q":
